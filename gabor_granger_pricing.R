@@ -1,6 +1,6 @@
 library (ggplot2)
 
-GG <- read.csv(file="C:\\Users\\coope\\OneDrive\\Desktop\\Professional\\gabor_granger_data.csv")
+GG <- read.csv("C:\\Users\\Username\\Downloads\\gabor_granger_data.csv") #<------------change file path
 
 GG_table = as.data.frame(table(GG$Max_Price))                       
 colnames(GG_table) = c("price","count")                             
